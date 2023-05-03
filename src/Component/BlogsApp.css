@@ -1,0 +1,88 @@
+.blog-main {
+    background-color: #c1c0b6;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.blog-card1 {
+    padding: 30px;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #b9b6ad;
+    border: 0;
+}
+
+.rounded-start {
+    border-bottom-left-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+.blog-card1 img {
+    border-radius: 0;
+    border-radius: 15px !important;
+    opacity: 0.9;
+}
+
+.blog-card1 h5 {
+    font-size: 40px;
+    margin-left: 50px;
+    opacity: 0.9;
+}
+
+.card-text {
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 20px;
+    word-spacing: 1;
+    line-height: 40px;
+    opacity: 0.8;
+}
+
+.blog-card1 h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20%;
+}
+
+.blog-card1 h1 {
+    text-align: center;
+    font-size: 90px;
+    margin-top: 16%;
+    margin-bottom: 25%;
+    animation: intro 1s forwards;
+}
+
+.dot {
+    font-size: 90px;
+    animation: ani-dot 1s forwards;
+    animation-delay: 1s;
+    opacity: 1;
+}
+
+@keyframes intro {
+    from {
+        font-size: 140px;
+        opacity: 0;
+    }
+
+    to {
+        font-size: 90px;
+        opacity: 1;
+    }
+}
+
+@keyframes intro {
+    from {
+        font-size: 140px;
+        opacity: 0;
+    }
+
+    to {
+        font-size: 90px;
+        opacity: 1;
+    }
+}
