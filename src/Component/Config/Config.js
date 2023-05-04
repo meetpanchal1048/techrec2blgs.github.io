@@ -20,8 +20,8 @@ const Config = () => {
     return (
         <>
 
-            <div className="config-main" id='config'>
-                <h3>Configure.</h3>
+            <div className="config-main" >
+                <h3 id='config'>Configure.</h3>
                 <div className="config-items">
                     <div className="config-item">
                         <h2>Whats Budget</h2>
