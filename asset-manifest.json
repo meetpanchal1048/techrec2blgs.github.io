@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/techrec2blgs.github.io/static/css/main.e6840f23.css",
-    "main.js": "/techrec2blgs.github.io/static/js/main.834a6e74.js",
+    "main.js": "/techrec2blgs.github.io/static/js/main.6206a4df.js",
     "static/media/Nothingp1.png": "/techrec2blgs.github.io/static/media/Nothingp1.2dc29e4154e4b96359a9.png",
     "static/media/pixel-6a-3.jpg": "/techrec2blgs.github.io/static/media/pixel-6a-3.35022fc2280b1bc3bd13.jpg",
     "static/media/vivo.jpg": "/techrec2blgs.github.io/static/media/vivo.2295ff2462ef1902a963.jpg",
@@ -18,10 +18,10 @@
     "static/media/pocox5pro.jpg": "/techrec2blgs.github.io/static/media/pocox5pro.e29f9adba238d4bc26cd.jpg",
     "index.html": "/techrec2blgs.github.io/index.html",
     "main.e6840f23.css.map": "/techrec2blgs.github.io/static/css/main.e6840f23.css.map",
-    "main.834a6e74.js.map": "/techrec2blgs.github.io/static/js/main.834a6e74.js.map"
+    "main.6206a4df.js.map": "/techrec2blgs.github.io/static/js/main.6206a4df.js.map"
   },
   "entrypoints": [
     "static/css/main.e6840f23.css",
-    "static/js/main.834a6e74.js"
+    "static/js/main.6206a4df.js"
   ]
 }
