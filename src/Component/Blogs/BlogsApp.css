@@ -1,7 +1,5 @@
 .blog-main {
     background-color: #c1c0b6;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 .blog-card1 {
@@ -85,4 +83,25 @@
         font-size: 90px;
         opacity: 1;
     }
+}
+
+
+@media screen and (max-width: 600px){
+    .blog-card1 h5 {
+        font-size: 25px;
+        width: 100%;
+        opacity: 0.9;
+        margin-left: 0;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .card-text {
+        margin-top: 20px;
+        margin-left: 0;
+        font-size: 15px;
+        text-align: center;
+        line-height: 30px;
+    }
+    
 }

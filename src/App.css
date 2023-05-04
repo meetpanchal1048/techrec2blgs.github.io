@@ -22,7 +22,7 @@ body {
   padding-left: 30px;
 }
 
-.footer-left p{
+.footer-left p {
   color: #c1c0b6;
   font-size: 25px;
   width: 40%;
@@ -30,31 +30,159 @@ body {
 }
 
 
-.footer-left-top{
+.footer-left-top {
   display: flex;
 }
 
-.footer-left-top img{
+.footer-left-top img {
   height: 50px;
   padding-left: 20px;
   margin-top: 10px;
   border-radius: 0;
 }
 
-.footer-left-top p{
+.footer-left-top h2 {
   color: #c1c0b6;
   font-size: 50px;
 }
 
 
 
-.footer-right{
+.footer-right {
   margin-left: 15%;
   margin-top: 2%;
 }
-.footer-right li{
+
+.footer-right li {
   text-align: end;
   color: #c1c0b6;
   font-size: 25px;
   list-style-type: none;
+}
+.footer-right a{
+  text-decoration: none;
+  color: #c1c0b6;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.footer-right a:hover{
+  opacity: 1;
+}
+
+.footer-social{
+  margin-top: 5%;
+  padding:0 30px;
+}
+.footer-line {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #c1c0b6;
+}
+
+.footer-btm{
+  display: flex;
+}
+
+.footer-btm p{
+  width: 40%;
+  font-size: 15px;
+  color: #c1c0b6;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.icons{
+  display: flex;
+  font-size: 25px;
+  color: #c1c0b6;
+  margin-top: 10px;
+  margin-left: 70%;
+}
+.icon{
+  opacity: 0.5;
+  margin-right: 10px;
+  transition: 1s;
+}
+
+.icon:hover{
+  transition: 1s;
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0px;
+  }
+
+
+  .footer-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .footer-left-top img {
+    padding-left: 15%;
+  }
+
+  .footer-left p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    width: 95%;
+    text-align: center;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10%;
+  }
+
+  .footer-left-top h2 {
+    color: #c1c0b6;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .footer-right {
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+
+  .footer-right li {
+    text-align: center;
+    color: #c1c0b6;
+    font-size: 25px;
+    list-style-type: none;
+    margin-left: -20px;
+  }
+
+  ol,
+  ul {
+    padding-left: 0px !important;
+  }
+
+  .footer-btm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-btm p {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .icons {
+    padding-bottom: 10%;
+    margin-top: 0;
+    margin-left: 35%;
+  }
+
+  .icon {
+    opacity: 0.5;
+    margin-right: 10px;
+    transition: 1s;
+  }
+
 }

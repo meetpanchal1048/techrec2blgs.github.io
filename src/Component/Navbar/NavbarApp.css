@@ -23,6 +23,7 @@
 .navbar-brand{
     font-size: 30px;
     color: rgba(0, 0, 0, 0.682);
+    width: 200px;
 }
 .navbar-brand img{
     width: 15%;
@@ -34,6 +35,12 @@
     display: flex;
     animation: nav-load1 2s ease-in-out;
     border-bottom: 1px solid black;
+}
+
+.nav-item{
+    font-size: 20px;
+    color: #3e3b36;
+    opacity: 0.6;
 }
 
 @keyframes nav-load1 {
